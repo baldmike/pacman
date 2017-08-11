@@ -1,15 +1,21 @@
 * {
     box-sizing: border-box;
-    font-size: 0px;
-}
-
-body {
     background: black;
 }
 
+h1 {
+    color: white;
+    margin-left: 30px;
+}
+
+.container {
+    background: black;
+    font-size: 0px;
+}
+
 .row div {
-    width: 48px;
-    height: 48px;
+    width: 28px;
+    height: 28px;
     display: inline-block;
 }
 
@@ -19,17 +25,18 @@ body {
 
 .food {
     background: white;
-    border: 16px solid black;
+    border: 8px solid black;
     border-radius: 100%;
 }
 
 .plyr {
-    background: yellow;
-    border: 4px solid black;
-    border-radius: 100%;
+    background: url("images/pacman.gif") no-repeat;
+    background-size: 28px;
+    /*border: 2px solid black;*/
+    /*border-radius: 100%;*/
 }
 
 .none {
-
-    
+    background: black;
 }
+
